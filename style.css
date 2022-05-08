@@ -10,7 +10,9 @@ html {
   }
 
 body {
-  width: 80%;
+  font-family: 'Alegreya Sans', sans-serif;
+  max-width: 960px;
+  margin: auto;
 }
 
 .page {
@@ -18,7 +20,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -30,9 +32,138 @@ body {
 }
 
 .header__log {
-  background-color: white;
+  background-color: #fff;
+}
+
+.header__logo {
+  width: 16.66%;
+  align-items: center;
+  background-color: #fff;
 }
 
 .header__link {
+  background-color: #232323;
+  border: white solid 1px;
+  height: 40px;
+  width: 16.66%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.intro {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ padding: 5rem;
+ margin: 100px 0px;
+}
+
+.intro__hi_name {
+  border-bottom: 2px solid #54be90;
+}
+
+.header__description {
+ width: 100%;
+ height: 100px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.description__text {
+  background-color: #fff;
+  color: #444444;
+  width: 100%;
+  height: 60px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.description__text_bold {
+  background-color: #fff;
+  color: #444444;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.services__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.services__title {
+  color: #54be90;
+}
+
+.services__text {
+  display: flex;
+}
+
+.skills {
+  background-color: #fff;
+  margin-top: 30px;
+}
+
+.skills__title {
+  background-color: #fff;
+  color: #54be90;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin: 50px 0px 10px 0px;
+}
+
+.skills__table {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  margin: 0% 15%;
+}
+
+.skills__list{
+  background-color: #fff;
+  width: 150px;
+}
+
+.skills__list_lang {
+  color: #fff;
+  background-color: #444444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  margin: 5px 0px;
+  font-size: 20px;
+}
+
+.skills__percent {
+  background-color: #fff;
+  border: white solid 1px;
+  width: 80%;
+}
+
+.skills__percent_value {
   background-color: #ebebeb;
+  color: #444444;
+  display: flex;
+  padding-right: 10px;
+  justify-content: right;
+  align-items: center;
+  height: 40px;
+  margin: 5px 0px;
+  opacity: 50%;
 }

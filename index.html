@@ -10,52 +10,78 @@
 </head>
 <body>
     <div class="page">
-        <div class="home">
-            <header class="header">
+        <section class="home">
+            <a name="home"></a>
+            <nav class="header">
                 <img class="header__logo" src="logo" alt="Logo">
-                <a class="header__link" id="home">HOME</a>
-                <a class="header__link" id="skills">SKILLS</a>
-                <a class="header__link" id="portfolio">PORTFOLIO</a>
-                <a class="header__link" id="aboutme">ABOUT ME</a>
-                <a class="header__link" id="contact">CONTACT</a>
-            </header>
-            <article class="interoduction">
-                <p>Hi, I am Aneta Webber</p>
-                <p>I'm a Full-stack Web Developer.</p>
-            </article>
-            <article class="description">
-                <p>Let's work together to make <strong>your product stand out</strong>. I create beautiful and functional websites. I work with my client step by step <strong>the idea stage until the fully functioning web application.</strong></p>
-            </article>
-            <article class="services">
-                <div class="services__dicover">
+                <a class="header__link" href="#home">HOME</a>
+                <a class="header__link" href="#skills">SKILLS</a>
+                <a class="header__link" href="#portfolio">PORTFOLIO</a>
+                <a class="header__link" href="#aboutme">ABOUT ME</a>
+                <a class="header__link" href="#contact">CONTACT</a>
+            </nav>
+            <div class="intro">
+                <p class="intro__hi">Hi, I am <div class="intro__hi_name">Aneta Webber.</div></p>
+                <p class="intro__des">I'm a Full-stack Web Developer.</p>
+            </div>
+            <div class="header__description">
+                <p class="description__text">Let's work together to make <strong class="description__text_bold">your product stand out</strong>. I create beautiful and functional websites. I work with my client step by step <strong class="description__text_bold">the idea stage until the fully functioning web application.</strong></p>
+            </div>
+            <div class="services">
+                <div class="services__box">
                     <h2 class="services__title">Discover</h2>
                     <p class="services__text">Tell me about your project and we brainstorm together the features to create a plan for your product launch.</p>
                 </div>
-                <div class="services__design">
+                <div class="services__box">
                     <h2 class="services__title">Design</h2>
                     <p class="services__text">We design the wireframe and agree together how to create the best experience for your users to present your brand.</p>
                 </div>
-                <div class="services__deploy">
+                <div class="services__box">
                     <h2 class="services__title">Deploy</h2>
                     <p class="services__text">We prototype and develop your product. We work together intensily to incorporate your feeback.</p>
                 </div>
-                <div class="services__beready">
+                <div class="services__box">
                     <h2 class="services__title">Be Ready</h2>
                     <p class="services_text">We deploy your product and now your website is ready to get traction. Get out there and grow your audience.</p>
                 </div>
-            </article>
-        </div>
-        <div class="skills">
+            </div>
+        </section>
+        <section class="skills">
+            <a name="skills"></a>
             <h1 class="skills__title">MY SKILLS</h1>
-        </div>
-        <div class="portfolio">
+                <div class="skills__table">
+                    <div class="skills__list">
+                        <p class="skills__list_lang">HTML</p>
+                        <p class="skills__list_lang">CSS, Sass</p>
+                        <p class="skills__list_lang">JavaScript</p>
+                        <p class="skills__list_lang">React</p>
+                        <p class="skills__list_lang">jQuerry</p>
+                        <p class="skills__list_lang">PHP</p>
+                        <p class="skills__list_lang">Laravel</p>
+                        <p class="skills__list_lang">UX</p>
+                    </div>
+                    <div class="skills__percent 80">
+                        <p class="skills__percent_value">80%</p>
+                        <p class="skills__percent_value">80%</p>
+                        <p class="skills__percent_value">70%</p>
+                        <p class="skills__percent_value">60%</p>
+                        <p class="skills__percent_value">70%</p>
+                        <p class="skills__percent_value">60%</p>
+                        <p class="skills__percent_value">60%</p>
+                        <p class="skills__percent_value">50%</p>
+                    </div>
+                </div>
+        </section>
+        <section class="portfolio">
+            <a name="portfolio"></a>
             <h1 class="portfolio__title">MY PORTFOLIO</h1>
                 <div class="projects">
                     
                 </div>
-        </div>
-        <div class="about_me">
-            <h1 class="about_me__title">ABOUT ME</h1>
+            </section>
+        <section class="about_me">
+        <a name="aboutme"></a>
+                    <h1 class="about_me__title">ABOUT ME</h1>
                 <article class="about_me__info"></article>
                     <img class="aneta_pic" src="" alt="Picture of Aneta">
                     <div class="about_me__text">
@@ -74,10 +100,11 @@
                         <img class="about_me__social_logo" src="" alt="Instagram">
                     </div>
                 </article> 
-        </div>
-        <div class="contact">
+            </section>
+        <section class="contact">
+            <a name="contact"></a>
             
-        </div>    
+        </section>    
         <footer class="footer">
                 <h2 class="footer__header">NICE TO MEET YOU!</h2>
                 <img class="footer__social_logo" src="" alt="">
